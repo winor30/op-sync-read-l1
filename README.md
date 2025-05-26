@@ -55,6 +55,7 @@ AUTOFIX=true just devnet remotestaticcall-l1sload.yaml
 # Set environment variables
 export PRIV=0xac09...ff80  # dev-account-0 private key
 export ADDR=0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+export FAUCET_PK=0x04b9...9e59 # l1 faucet private key
 export L1_RPC=http://127.0.0.1:[PORT]
 export L2_RPC=http://127.0.0.1:[PORT]
 
