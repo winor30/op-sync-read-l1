@@ -37,7 +37,7 @@ The core modifications to enable these precompiles are available in these reposi
 
 ```shell
 # Build custom op-geth image with precompile implementations
-cd ~/ghq/github.com/winor30/op-geth
+cd /path/to/your/github.com/winor30/op-geth
 docker build -t winor30/op-geth:remotestaticcall-l1sload .
 ```
 
@@ -45,7 +45,7 @@ docker build -t winor30/op-geth:remotestaticcall-l1sload .
 
 ```shell
 # Start devnet with the custom configuration
-cd ~/ghq/github.com/winor30/optimism/kurtosis-devnet
+cd /path/to/your/github.com/winor30/optimism/kurtosis-devnet
 AUTOFIX=true just devnet remotestaticcall-l1sload.yaml
 ```
 
